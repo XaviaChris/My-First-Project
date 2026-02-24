@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+}
+.container {
+    border: solid red;
+   
+    padding: 24px;
+}
+.row {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.onewrap {
+    width: 50%;
+}
+.leftbox {
+    border: solid purple;
+    height: 100px;
+    margin: 24px;
+}
+.wrapper {
+    width: 50%;
+
+}
+.bigbox {
+    border: solid blue;
+    margin: 24px;
+    height: 88%;
+    
+}
+.mini-wrapper {
+    border: solid white;
+    height: 100px;
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.mini {
+    border: solid salmon;
+    width: 30%;
+    height: 100%;
+   
+}
